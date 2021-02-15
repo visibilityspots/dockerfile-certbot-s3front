@@ -1,7 +1,8 @@
-FROM python:3.6-alpine
+FROM python:3.9-alpine
 
 VOLUME /etc/letsencrypt /var/lib/letsencrypt
 WORKDIR /opt/certbot
+ENV CRYPTOGRAPHY_DONT_BUILD_RUST 1
 
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
@@ -21,5 +22,5 @@ RUN apk add --no-cache --virtual .build-deps \
     && pip install certbot-s3front \
     && apk del .build-deps
 
-
+RUN rm -rf /var/cache/apk/*;
 ENTRYPOINT [ "/usr/local/bin/docker-entrypoint.sh" ]
