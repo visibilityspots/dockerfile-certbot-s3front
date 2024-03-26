@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.12.2-alpine3.19
 
 VOLUME /etc/letsencrypt /var/lib/letsencrypt
 WORKDIR /opt/certbot
@@ -12,7 +12,7 @@ RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 
 RUN apk add --no-cache --virtual .certbot-deps \
     libffi \
-    libssl1.1 \
+    libssl3 \
     ca-certificates \
     binutils
 
