@@ -1,0 +1,7 @@
+command:
+  certbot --version:
+    exit-status: 0
+    stdout:
+    - 2.11.0
+    stderr: []
+    timeout: 0
