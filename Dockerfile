@@ -11,7 +11,7 @@ RUN apk add --no-cache --virtual .certbot-deps \
     libssl3 \
     ca-certificates \
     binutils \
-    && adduser -S cerbot
+    && adduser -S certbot
 
 RUN apk add --no-cache --virtual .build-deps \
     gcc \
