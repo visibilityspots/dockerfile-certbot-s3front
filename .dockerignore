@@ -1,2 +1,2 @@
-*
-!docker-entrypoint.sh
+env.list
+letsencrypt
