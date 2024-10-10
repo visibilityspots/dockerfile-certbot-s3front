@@ -17,12 +17,12 @@ jobs:
       - name: Install Goss
         uses: e1himself/goss-installation-action@v1.2.1
         with:
-          version: 'v0.4.8'
+          version: 'v0.4.9'
 
       - name: Execute Goss tests
         env:
           GOSS_FILES_STRATEGY: cp
-        run: dgoss run -e GOTIFY_URL=${{ secrets.GOTIFY_URL }} -e GOTIFY_TOKEN=${{ secrets.GOTIFY_TOKEN }} visibilityspots/certbot-s3front:dev visibilityspots.org
+        run: dgoss run visibilityspots/certbot-s3front:dev
 
   deploy:
     needs: test
