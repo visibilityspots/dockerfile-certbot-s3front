@@ -10,8 +10,7 @@ RUN apk add --no-cache --virtual .certbot-deps \
     libffi \
     libssl3 \
     ca-certificates \
-    binutils \
-    && adduser -S certbot
+    binutils
 
 RUN apk add --no-cache --virtual .build-deps \
     gcc \
@@ -34,7 +33,5 @@ RUN rm -rf /var/cache/apk/* \
     && apk del .build-deps
 
 WORKDIR /opt/certbot
-
-USER certbot
 
 ENTRYPOINT [ "/usr/local/bin/docker-entrypoint.sh" ]
