@@ -1,7 +1,7 @@
 FROM python:3.12.6-alpine3.20
 
 VOLUME /etc/letsencrypt /var/lib/letsencrypt
-ENV CRYPTOGRAPHY_DONT_BUILD_RUST 1
+ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
 
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
