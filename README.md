@@ -91,8 +91,5 @@ echo EMAIL=YOUR_EMAIL >> env.list
 And finally run the docker image:
 
 ```bash
-docker run --rm --name lets-encrypt -it \
-    -v ./letsencrypt/:/etc/letsencrypt \
-    --env-file env.list \
-    certbot-s3front \
+docker run --rm --name letsencrypt -v ./letsencrypt/:/etc/letsencrypt --env-file env.list certbot-s3front
 ```
