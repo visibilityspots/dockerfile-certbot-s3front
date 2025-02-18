@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v3.2.0] - 2025-02-18
+### :wrench: Chores
+- [`03a61ca`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/03a61ca50c15396f82114da711739c29e56a57be) - **update**: certbot v3.2.0 *(commit by [@visibilityspots](https://github.com/visibilityspots))*
+
+
 ## [v3.1.0] - 2025-01-08
 ### :wrench: Chores
 - [`581c578`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/581c5788797898bbdeb4d9563cc33538d39f6c32) - **doc**: refactored docker run command with env.list *(commit by [@visibilityspots](https://github.com/visibilityspots))*
@@ -27,3 +32,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [v3.0.1]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v3.0.0...v3.0.1
 [v3.1.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v3.0.1...v3.1.0
+[v3.2.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v3.1.0...v3.2.0
