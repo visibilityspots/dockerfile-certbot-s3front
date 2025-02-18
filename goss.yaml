@@ -1,3 +1,10 @@
 file:
   /usr/local/bin/certbot:
     exists: true
+
+command:
+  certbot --version:
+    exit-status: 0
+    stdout:
+    - certbot 3.2.0
+
