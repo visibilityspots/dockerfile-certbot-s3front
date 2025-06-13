@@ -6,4 +6,4 @@ command:
   certbot --version:
     exit-status: 0
     stdout:
-    - certbot 4.0.0
+    - certbot 4.1.1
