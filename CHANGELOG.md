@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v4.1.0] - 2025-06-15
+### :bug: Bug Fixes
+- [`8b0b791`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/8b0b791b4a049466342396f6f14a1826bd52545d) - **goss**: removed failing command *(commit by [@visibilityspots](https://github.com/visibilityspots))*
+
+### :wrench: Chores
+- [`2c54ba2`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/2c54ba2cb9fad6121f0ea0ef69cc280db87dbcf1) - **deps**: bump setuptools in the pip group across 1 directory *(commit by [@dependabot[bot]](https://github.com/apps/dependabot))*
+- [`3e49f9a`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/3e49f9aa292f5850da612a95c660047956f95c6b) - **update**: python v3.15.5 + alpine v3.22 *(commit by [@visibilityspots](https://github.com/visibilityspots))*
+- [`bb1fb4a`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/bb1fb4a216cf4b6fa5551d1e52162ddc693170bf) - **update**: certbot v4.1.0 *(commit by [@visibilityspots](https://github.com/visibilityspots))*
+- [`37f8209`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/37f820925f61a4aa74206dab10925b168d454a51) - **update**: certbot v4.1.1 *(commit by [@visibilityspots](https://github.com/visibilityspots))*
+- [`eaa29a4`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/eaa29a42502d1051fde723d815e21d1bc29a4849) - **update**: certbot v4.1.0 *(commit by [@visibilityspots](https://github.com/visibilityspots))*
+
+
 ## [v4.0.0] - 2025-04-13
 ### :wrench: Chores
 - [`2b965a2`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/2b965a20f7fd3296338437e7f49918640d28d8d3) - **update**: certbot v4.0.0 + python v3.13.3 *(commit by [@visibilityspots](https://github.com/visibilityspots))*
@@ -45,3 +57,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v3.2.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v3.1.0...v3.2.0
 [v3.3.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v3.2.0...v3.3.0
 [v4.0.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v3.3.0...v4.0.0
+[v4.1.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v4.0.0...v4.1.0
