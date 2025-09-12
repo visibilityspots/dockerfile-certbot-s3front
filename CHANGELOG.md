@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v5.0.0] - 2025-09-12
+### :bug: Bug Fixes
+- [`d92ee9f`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/d92ee9f99da306be861400b4bfa86dade16cf0be) - **requirements**: added missing equals sign *(commit by [@visibilityspots](https://github.com/visibilityspots))*
+
+### :wrench: Chores
+- [`09e7863`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/09e78636d778edb222adc1377588d5fc835ab5fc) - **deps**: bump urllib3 in the pip group across 1 directory *(commit by [@dependabot[bot]](https://github.com/apps/dependabot))*
+- [`c32fcf8`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/c32fcf8a6de0f3c69efaeea8da4e2aab9e2eeee9) - **deps**: bump python from 3.13.5-alpine3.22 to 3.13.6-alpine3.22 *(commit by [@dependabot[bot]](https://github.com/apps/dependabot))*
+- [`7987fee`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/7987feec584524a9cf90642fd417c2d540d0cf1f) - **update**: certbot v5.0.0 + python v3.13.7 + Alpine v3.22 *(commit by [@visibilityspots](https://github.com/visibilityspots))*
+
+
 ## [v4.1.0] - 2025-06-15
 ### :bug: Bug Fixes
 - [`8b0b791`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/8b0b791b4a049466342396f6f14a1826bd52545d) - **goss**: removed failing command *(commit by [@visibilityspots](https://github.com/visibilityspots))*
@@ -58,3 +68,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v3.3.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v3.2.0...v3.3.0
 [v4.0.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v3.3.0...v4.0.0
 [v4.1.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v4.0.0...v4.1.0
+[v5.0.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v4.1.0...v5.0.0
