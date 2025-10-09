@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v5.1.0] - 2025-10-09
+### :wrench: Chores
+- [`c8bfa5e`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/c8bfa5e46b3edb8f734594d3df9ed1eba86672c3) - **update**: certbot v5.1.0 + python v3.13.8 *(commit by [@visibilityspots](https://github.com/visibilityspots))*
+
+
 ## [v5.0.0] - 2025-09-12
 ### :bug: Bug Fixes
 - [`d92ee9f`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/d92ee9f99da306be861400b4bfa86dade16cf0be) - **requirements**: added missing equals sign *(commit by [@visibilityspots](https://github.com/visibilityspots))*
@@ -69,3 +74,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v4.0.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v3.3.0...v4.0.0
 [v4.1.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v4.0.0...v4.1.0
 [v5.0.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v4.1.0...v5.0.0
+[v5.1.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v5.0.0...v5.1.0
