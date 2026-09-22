@@ -28,7 +28,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 RUN python setup.py install
 
-RUN rm -rf /var/cache/apk/* \
+RUN python -m pip uninstall -y pip \
+    && rm -rf /var/cache/apk/* \
     && rm -rf /tmp/* \
     && apk del .build-deps
 
