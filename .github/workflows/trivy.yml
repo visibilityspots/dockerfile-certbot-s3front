@@ -6,6 +6,7 @@ on:
       - '*'
   schedule:
     - cron: '44 19 * * 4'
+  workflow_dispatch:
 
 jobs:
   scan:
