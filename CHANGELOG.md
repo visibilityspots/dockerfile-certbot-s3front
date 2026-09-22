@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v5.8.0] - 2026-09-22
+### :bug: Bug Fixes
+- [`2c84fce`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/2c84fce61df8ff20f361bef74eef8e3f6b502b7d) - **requirements**: bump urllib3 and setuptools to patched versions *(commit by [@visibilityspots](https://github.com/visibilityspots))*
+
+### :wrench: Chores
+- [`4acc0e9`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/4acc0e9f4e29e9655494b61d7f2f0837672b9fd8) - **update**: certbot v5.8.0 + python v3.14.7 + Alpine v3.24 *(commit by [@visibilityspots](https://github.com/visibilityspots))*
+
+
 ## [v5.1.0] - 2025-10-09
 ### :wrench: Chores
 - [`c8bfa5e`](https://github.com/visibilityspots/dockerfile-certbot-s3front/commit/c8bfa5e46b3edb8f734594d3df9ed1eba86672c3) - **update**: certbot v5.1.0 + python v3.13.8 *(commit by [@visibilityspots](https://github.com/visibilityspots))*
@@ -75,3 +83,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v4.1.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v4.0.0...v4.1.0
 [v5.0.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v4.1.0...v5.0.0
 [v5.1.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v5.0.0...v5.1.0
+[v5.8.0]: https://github.com/visibilityspots/dockerfile-certbot-s3front/compare/v5.1.0...v5.8.0
