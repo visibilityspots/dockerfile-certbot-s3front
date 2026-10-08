@@ -1,4 +1,4 @@
-FROM python:3.14.7-alpine3.24
+FROM python:3.14.8-alpine3.24
 
 VOLUME /etc/letsencrypt /var/lib/letsencrypt
 ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
@@ -6,7 +6,7 @@ ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 
-RUN apk add --no-cache --virtual .certbot-deps \
+RUN apk upgrade --no-cache && apk add --no-cache --virtual .certbot-deps \
     libffi \
     libssl3 \
     ca-certificates \
