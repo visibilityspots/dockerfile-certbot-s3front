@@ -1,4 +1,4 @@
-FROM python:3.14.8-alpine3.24
+FROM python:3.15.0-alpine3.24
 
 VOLUME /etc/letsencrypt /var/lib/letsencrypt
 ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
