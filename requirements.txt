@@ -1,5 +1,5 @@
-boto3==1.43.109
+boto3==1.43.119
 certbot==5.8.0
-setuptools==84.0.0
+setuptools==84.2.1
 urllib3==2.8.0
-Zope==6.2
+Zope==6.3
