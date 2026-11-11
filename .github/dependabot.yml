@@ -10,4 +10,13 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    # Dependabot has no pre-release switch for Docker tags. Skip CPython
+    # alpha/beta/rc tags (3.16.0a1 ... 3.16.0rc2) with a Bundler range per
+    # upcoming minor; the stable x.y.0 still comes through. Add the next
+    # minor here when its alphas start (yearly, around October).
+    ignore:
+      - dependency-name: "python"
+        versions:
+          - ">= 3.16.0.a, < 3.16.0"
+          - ">= 3.17.0.a, < 3.17.0"
 
